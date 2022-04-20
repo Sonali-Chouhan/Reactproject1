@@ -34,6 +34,7 @@ export default class Frompage extends React.Component {
   }
   handleFormValidation() {
     const User = this.state.User;
+    console.log("User",User);
     let formErrors = {};
     let formIsValid = true;
 
