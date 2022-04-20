@@ -115,6 +115,7 @@ export default class Frompage extends React.Component {
         Phone: "",
         User:items
       });
+      console.log("999999",items)
       this.props.history.push("/table");
     }
   };
